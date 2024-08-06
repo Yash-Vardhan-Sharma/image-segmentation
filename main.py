@@ -1,5 +1,6 @@
 from model_utils import load_model, remove_background, merge_image
 import argparse
+import os
 
 parser = argparse.ArgumentParser()
 
@@ -35,4 +36,5 @@ if __name__ == "__main__":
 
     final_image = merge_image(background_path, foreground)
 
+    os.makedirs(image_save_dir, exist_ok=True)
     final_image.save(f'{image_save_dir}/updated_{img_name}_{bkg_name}.png')
