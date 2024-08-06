@@ -18,7 +18,7 @@ This is a codebase for changing background of a given image to another.
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/yourprojectname.git
+git clone https://github.com/Yash-Vardhan-Sharma/image-segmentation.git
 cd image-segmentation
 ```
 - Create a conda environment for the project
